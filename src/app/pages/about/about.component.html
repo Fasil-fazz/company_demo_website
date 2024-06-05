@@ -1,0 +1,96 @@
+<div class="row">
+    <div class="col">
+      <img src="../../../assets/who we.jpg" style="height: 80%; width: 100%;">
+    </div>
+    <div class="col" id="we">
+      <h1 style="font-size: 400%;">WHO WE ARE....?</h1>
+      <h5>We create a friendly environment and build a better future together to make Nest Digital Group a happier place for everyone.</h5>
+    </div>
+  </div>
+
+  <div class="accordion" id="accordionPanelsStayOpenExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+          <h2><b>Mission</b></h2>
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+        <div class="accordion-body">
+          <div class="row">
+            <div class="col" style="margin-top: 10%;">
+              <p class="about">Be the global leader in providing end-to-end solutions in engineering and manufacturing for both hardware and software products in the high value added markets, satisfy our customers with innovative technology and superior quality, value and service.</p>
+            </div>
+            <div class="col">
+              <img src="../../../assets/mission.jpg" alt="" style="height: 350px; width: 100%; margin-left: 15%;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+          <h2><b>Vision</b></h2>
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          <div class="row">
+            <div class="col">
+              <img src="../../../assets/vision.jpg" alt="" style="height: 350px; width: 100%; ">
+            </div>
+            <div class="col" style="margin-top: 10%;">
+              <p class="about">Be a global technology driven company contributing to the enhancement of quality of life of the people and provide best value for all stake holders.</p>
+            </div>             
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+          <h2><b>Believe in</b></h2>
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          <div class="row">
+            <div class="col" style="margin-top: 10%;">
+              <p class="about">Our core values make us who we are today
+                Our purpose and principles have shaped us into who we are today and they enable us to strive for greater heights. Every decision we make is closely aligned with our principles. These help us raise our bar, dive deep into challenges to achieve game-changing outcomes.</p>
+            </div>
+            <div class="col">
+              <img src="../../../assets/believe.jpg" alt="" style="height: 350px; width: 100%; margin-left: 15%;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="margin-left: 35%;">
+    <br><br>
+    <h3 style="color: rgb(0, 0, 63); "><b>Work life at NeST Digital Group</b></h3>
+  </div>
+  <div style="margin-left: 25%;">
+    <h4 style="color: rgb(37, 37, 37); "><b>Here is why everyone says working in NeST Digital Group is the best.</b></h4>
+  </div>
+
+  <div class="row">
+    <div class="col" id="buttons-container">
+      <button class="btn" onclick="changeImage('../../../assets/gender.png')">Gender Equality</button><br>
+      <button class="btn" onclick="changeImage('../../../assets/strength.jpg')">Strength</button><br>
+      <button class="btn" onclick="changeImage('../../../assets/employee_benefits.jpg')">Employee Benefits</button>
+    </div>
+    <div class="col" id="image-container">
+      <img id="displayed-image" src="../../../assets/gender.png" alt="Display Image">
+    </div>
+  </div>
+
+
+<script>
+  function changeImage(imageSrc) {
+      document.getElementById('displayed-image').src = imageSrc;
+  }
+</script>

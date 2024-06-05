@@ -1,0 +1,81 @@
+<!-- <div class="row">
+    <div class="col" style="margin-left: 10%;">
+      <div class="card" style="width: 18rem;">
+        <img src="../../../assets/banking.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Banking & Finance</h5>
+          <p class="card-text">Accelerating the cashless economy efficiently by adopting global standards & local priorities..</p>
+          <a href="banking.html" class="btn btn-primary">Read more..</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="../../../assets/aeronotic.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Aeronotical</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="aeronotic.html" class="btn btn-primary">Read more..</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="../../../assets/gis.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">GIS</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="gis.html" class="btn btn-primary">Read more..</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br><br>
+  <div class="row">
+    <div class="col" style="margin-left: 10%;">
+      <div class="card" style="width: 18rem;">
+        <img src="../../../assets/healthcare.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Healthcare</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="healthcare.html" class="btn btn-primary">Read more..</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="../../../assets/mobility.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mobility</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="mobility.html" class="btn btn-primary">Read more..</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="../../../assets/insurance.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Insurance</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="insurance.html" class="btn btn-primary">Read more..</a>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <div class="row">
+  @for (item of department; track item.id) {
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="{{item.image}}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{item.title}}</h5>
+          <p class="card-text">......</p>
+          <a href="banking.html" class="btn btn-primary">Read more..</a>
+        </div>
+      </div>
+    </div>
+  }
+  </div>
+  

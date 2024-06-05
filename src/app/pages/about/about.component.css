@@ -1,0 +1,76 @@
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the background container */
+.background {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    background: url('../../../assets/bg2.webp') no-repeat center center;
+    background-size: cover;
+    transition: opacity 0.5s; /* Smooth transition for opacity */
+}
+
+/* Create the overlay with transparency */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+    color: white; /* Text color */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Style the overlay content */
+.overlay h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.overlay p {
+    font-size: 1.5em;
+}
+
+.content {
+    padding: 20px;
+}
+
+#we{
+    color: rgb(0, 0, 63);
+    font-weight: lighter;
+    align-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10%;
+}
+
+.about{
+    text-align: center;
+    justify-content: center;
+}
+
+#image-container {
+    text-align: center;
+    margin-top: 50px;
+}
+#image-container img {
+    width: 300px;
+    height: auto;
+}
+#buttons-container {
+    text-align: center;
+    margin-top: 20px;
+}
+.btn {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
